@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, rgb(57, 57, 57) 0%, rgb(46, 46, 46) 100%);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(219, 219, 219) 100%);
     margin: 0;
     padding: 0;
     overflow-y: hidden;
@@ -8,7 +8,7 @@ body {
 
 
 #loginRegister {
-    background: linear-gradient(90deg, #2ee937 50%, white 50%);
+    background: linear-gradient(90deg, #47f04f 50%, #3a3a3a 50%);
     position: absolute;
     z-index: 3;
     top: 50%;
@@ -27,7 +27,7 @@ body {
     left: 4em;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
-    color: #242424;
+    color: #3a3a3a;
 }
 
 .tittle_is {
@@ -51,7 +51,7 @@ label {
 
 #loginSection .placeholders {
     color: white;
-    background-color: #2ee937;
+    background-color: #3a3a3a;
 }
 
 .button_is {
@@ -69,7 +69,7 @@ label {
 }
 
 #registerPress {
-    background-color: #2ee937;
+    background-color: #47f04f;
     display: block;
     position: absolute;
     top: 8em;
@@ -85,7 +85,7 @@ label {
 }
 
 #sesionPress {
-    background-color: #242424;
+    background-color: #3a3a3a;
     width: auto; /* Cambiado */
     display: block; /* Cambiado */
     position: absolute;
@@ -112,13 +112,14 @@ label {
     top: 1em;
     display: none;
     right: 4em;
-    color: black;
+    color: #ffffff;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
 
+
 .button_reg {
-    margin-top: 1.5em;
+    margin-top: 1em;
     text-align: center;
     padding-left: 2.2em;
 }
@@ -129,8 +130,4 @@ label {
     border: #ffffff 2px solid !important;
     color: #ffffff !important;
     font-weight: bold;
-}
-
-input{
-    color:#2ee937;
 }
